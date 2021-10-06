@@ -44,5 +44,10 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+
+  sanity: {
+    useCdn: false,
+    token: 'skZQQqTO8k1IUa0j4IGqTs3phntmUEuOImrgCCdcVV9VETMJcWrTLORh08T0zlCoXHcn7Se6FuEMQZAPnCy52EzV9tMim8kdDVUlJh8mTl0o99Ahwxb3yruKYW7RGkH7FmWwPF6Z48dlKbHZFAYWq0ZGnfjsh5HqCRuTQ2UHsuAH42KeEQWr'
   }
 }

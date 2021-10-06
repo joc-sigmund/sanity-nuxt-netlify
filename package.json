@@ -11,7 +11,8 @@
     "build": "sanity build",
     "manage": "sanity manage",
     "docs": "sanity docs",
-    "help": "sanity help"
+    "help": "sanity help",
+    "deploy": "sanity deploy"
   },
   "keywords": [
     "sanity"
