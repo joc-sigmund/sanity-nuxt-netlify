@@ -40,6 +40,9 @@ export default createSchema({
           type: 'array',
           of: [{
             type: 'blockRichTextEditor'
+          },
+          {
+            type: 'blockImage'
           }]
         },
         {
@@ -85,6 +88,12 @@ export default createSchema({
       fields: [
         {name: 'RTE', type: 'array', of: [{type: 'block'}]}
       ]
+    },
+    {
+      title: "Block Image",
+      name: "blockImage",
+      type: 'image',
+      description: "Select the image here"
     }
   ]),
 })

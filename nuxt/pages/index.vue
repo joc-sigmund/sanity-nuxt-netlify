@@ -35,7 +35,6 @@ export default {
   async asyncData ({ $sanity }) {
     const query = groq`*[_type == "post"]{id, title, slug, date, author->} | order(date desc)`
     const blogs = await $sanity.fetch(query)
-    console.log(blogs)
     return { blogs }
   }
 }
